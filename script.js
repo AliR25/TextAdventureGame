@@ -4,24 +4,24 @@ const descriptionText = document.querySelector('.adventure-description');
 const buttons = document.querySelectorAll('.button');
 const textAdventure = [
   {
-    description: 'This is the adventure of Juan, who got lost in the forest when looking for a bird to photograph. Juan needs your help to find his way out. Choose one of the options below',
+    description: 'This is the adventure of Johnny sins, who went on a hike with his wife, but go separated from her.',
     options: [
       'Head back to where you came from',
       'Look up at the sky and had towards the sun'
     ]
   },
   {
-    description: 'great, Juan was able to find his way back, but now he reliazes that its about to rain, what should Juan do now?',
+    description: 'great, Johnny was able to find his way back, but still cannot spot his wife, what should he do now?',
     options: [
       'Look for shelter',
-      'Continue heading back, and risk getting lost again'
+      'Continue searching at the risk of getting lost again'
     ]
   },
   {
-    description: 'Juan is safe in the shelter. He will wait until it stops raining. What should Juan do?',
+    description: 'Johnny is safe in the shelter. But now it is starting to rain, What should Johnny do?',
     options: [
       'Leave the cave as soon as it stops raining',
-      'Wait until the sun comes out again and continue walking'
+      'Wait until the sun comes out again and continue searching'
     ]
   }
 ]
